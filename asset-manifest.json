@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zentrades-task-2-3-vaibhav/static/css/main.51356952.css",
+    "main.js": "/zentrades-task-2-3-vaibhav/static/js/main.9b6294fc.js",
+    "index.html": "/zentrades-task-2-3-vaibhav/index.html",
+    "main.51356952.css.map": "/zentrades-task-2-3-vaibhav/static/css/main.51356952.css.map",
+    "main.9b6294fc.js.map": "/zentrades-task-2-3-vaibhav/static/js/main.9b6294fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51356952.css",
+    "static/js/main.9b6294fc.js"
+  ]
+}
