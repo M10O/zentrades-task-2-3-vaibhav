@@ -11,3 +11,10 @@ body {
 code {
   font-family: "Poppins", sans-serif;
 }
+
+@media screen and (max-width: 576px) {
+  .bars {
+    display: flex;
+    flex-direction: column;
+  }
+}
