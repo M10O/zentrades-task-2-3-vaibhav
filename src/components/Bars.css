@@ -8,9 +8,10 @@
   box-sizing: border-box;
 }
 
-body {
+.App {
   padding: 25px;
   background-color: rgb(216, 206, 206);
+  height: 100vh;
 }
 
 .bars-container {
