@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 25px;
+  background-color: rgb(216, 206, 206);
+}
+
+div.card-div {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.card {
+  position: relative;
+  border: none;
+  padding: 10px 20px;
+  overflow: hidden;
+  width: 266px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -10px 0px 0px #ee5566; /* Add box shadow */
+  margin-left: 2.6rem;
+}
+.question-mark {
+  color: rgb(1, 1, 252); /* Adjust the color of the question mark icon */
+  margin-right: 5px; /* Adjust the spacing between the icon and the text */
+}
+
+.card div {
+  position: absolute;
+  height: 100%;
+  width: 5px;
+  background-color: #ee5566;
+  top: 0;
+  left: 0;
+}
+
+.card-text {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+span {
+  color: white;
+  font-size: 10px;
+  padding: 8px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.bars {
+  width: 100%;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px; /* Add gap between grid items */
+}
+
+.chart-titles {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.bar {
+  width: 100%;
+}
+/* .chart {
+  width: 90%;
+  height: 100%;
+  margin-top: 15px;
+  background: white;
+} */
+
+@media screen and (max-width: 952px) {
+  div.card-div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.comp-heading {
+  margin-left: 2rem;
+}

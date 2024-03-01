@@ -1,0 +1,44 @@
+/* Bars.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 25px;
+  background-color: rgb(216, 206, 206);
+}
+
+.bars-container {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.bar-chart-wrapper {
+  width: 94%; /* Decrease width of the white box */
+  margin: 0 auto;
+  margin-top: 1.2rem;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 2.6rem;
+  margin-top: 16px;
+}
+
+.bar-chart-wrapper .MuiBarChart-root {
+  padding: 20px;
+}
